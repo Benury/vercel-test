@@ -1,0 +1,16 @@
+# reports directory for junit and coverage
+reports
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# TypeScript output
+dist
+
+# Dependency directories
+node_modules/
+.vercel

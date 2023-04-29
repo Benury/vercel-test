@@ -1,0 +1,103 @@
+[
+  {
+    "name":"Hexagon PICLS",
+    "description":"For producing the PoC for The PICLS integration",
+    "url":"https://altium-inc-3595.365.altium.com/",
+    "projects":[
+      {
+        "name":"Sample - Kame_PDB",
+        "design":{
+          "releases":{
+            "nodes":[
+              {
+                "variants":[
+                  {
+                    "pcbFabrication":{
+                      "gerber":{
+                        "packageName":"Gerber.zip",
+                        "downloadUrl": "https://test.com/123.zip"
+                      }
+                    }
+                  },
+                  {
+                    "pcbFabrication":{
+                      "gerber":{
+                        "packageName":"Gerber.zip",
+                        "downloadUrl": "https://test.com/123.zip"
+                    }
+                  }
+                ]
+              },
+              {
+                "variants":[
+                  {
+                    "pcbFabrication":{
+                      "gerber":{
+                        "packageName":"Gerber.zip"
+                      }
+                    }
+                  },
+                  {
+                    "pcbFabrication":{
+                      "gerber":{
+                        "packageName":"Gerber.zip"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name":"Sample - Kame_FMU",
+        "design":{
+          "releases":{
+            "nodes":[
+              {
+                "variants":[
+                  {
+                    "pcbFabrication":{
+                      "gerber":{
+                        "packageName":"Gerber.zip",
+                      }
+                    }
+                  },
+                  {
+                    "pcbFabrication":{
+                      "gerber":{
+                        "packageName":"Gerber.zip",
+                        "downloadUrl": "https://test.com/123.zip"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "variants":[
+                  {
+                    "pcbFabrication":{
+                      "gerber":{
+                        "packageName":"Gerber.zip",
+                        "downloadUrl": "https://test.com/123.zip"
+                      }
+                    }
+                  },
+                  {
+                    "pcbFabrication":{
+                      "gerber":{
+                        "packageName":"Gerber.zip",
+                        "downloadUrl": "https://test.com/123.zip"
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]
