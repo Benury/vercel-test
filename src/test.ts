@@ -18,8 +18,8 @@ watcher.on('change', () => {
   console.log(updatedFile);
 });
 
-const clientId = '6ef185a4-cca8-4f35-83d5-28a72c5e95a4';
-const clientSecret = 'TefLdQKEnZCSRbtrCkPUYpM3FppCCsBn1k5L';
+const clientId = '';
+const clientSecret = '';
 const nexar = new NexarClient(clientId, clientSecret, 'openid profile email design.domain user.access offline_access');
 const gqlQuery = `query workspaces {
   desWorkspaces {
